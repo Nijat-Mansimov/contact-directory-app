@@ -1,0 +1,33 @@
+.btn {
+  border: 0;
+  outline: none;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.btn--edit {
+  color: green;
+}
+
+.btn--delete {
+  color: red;
+}
+
+.info {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  color: black;
+}
+
+.info--success {
+  border: 1px solid green;
+}
+
+.info--error {
+  border: 1px solid red;
+}
+
+.far{
+  pointer-events: none;
+}

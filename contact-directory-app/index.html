@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Directory App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./skeleton/normalize.css" />
+    <link rel="stylesheet" href="./skeleton/skeleton.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Directory App</h1>
+      <form id="form-directory">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" class="u-full-width" />
+        </div>
+        <div>
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" class="u-full-width" />
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="text" id="mail" class="u-full-width" />
+        </div>
+        <div>
+          <input
+            class="button-primary u-full-width saveorupdate"
+            type="submit"
+            value="Save"
+          />
+        </div>
+      </form>
+      <hr />
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+            <th>Transactions</th>
+          </tr>
+        </thead>
+        <tbody class="list-of-persons"></tbody>
+      </table>
+    </div>
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+  </body>
+</html>
